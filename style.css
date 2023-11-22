@@ -23,6 +23,7 @@
     --type-dragon: #7038F8;
     --type-steel: #B8B8D0;
     --type-fairy: #F0B6BC;
+    --type-ramdom: #D4AF37;
 }
 
 * {
@@ -291,5 +292,15 @@ main {
 
 .fairy {
     background-color: var(--type-fairy);
+    color: var(--clr-black);
+}
+
+.random {
+    background-color: var(--type-ramdom);
+    color: var(--clr-black);
+}
+
+.search {
+    background-color: var(--clr-grey);
     color: var(--clr-black);
 }

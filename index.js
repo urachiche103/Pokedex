@@ -56,7 +56,6 @@ btnHeader.forEach(btn => btn.addEventListener('click', (event) => {
             .then((response) => response.json())
             .then(data => {
                 // console.log(data.types.map(type => type.type.name));
-
                 if(btnId === 'view-all') {
                     showPokemon(data);
                 } else {
